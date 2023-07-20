@@ -13,7 +13,7 @@ from tensorflow.keras.layers import LSTM, Dense
 # ls drive/MyDrive/Personal/LSTM/stock_trading_data.csv
 
 # Load the sample data
-data = pd.read_csv('/stock_trading_data.csv')
+data = pd.read_csv('./stock_trading_data.csv')
 
 
 #print(data.info())
